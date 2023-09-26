@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="form.html">Contact Us</a>
+    </nav>
+    <form action="submitted.html">
+      <h1>Contact Us</h1>
+      <label for="name">What's your name</label>
+      <input type="text" id="name" autocomplete="additional-name" />
+      <label for="email">What's your email address</label>
+      <input type="email" id="email" autocomplete="additional-name" />
+      <textarea
+        name=""
+        placeholder="What's your message"
+        id="textarea"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <input type="submit" id="submitButton" />
+      <button
+        type="button"
+        onclick="location.href = 'submitted.html '  "
+        id="otherButton"
+      >
+        Button
+      </button>
+      <a href="submitted.html" id="LinkButton">Link</a>
+    </form>
+
+    <div class="footer">
+        <h3>Connect with me:</h3>
+        <a href="https://www.facebook.com/Golovin.Ilya1" target="_blank">Facebook</a>
+        <a href="https://twitter.com/golovin_nyc" target="_blank">Twitter</a>
+        <a href="https://www.linkedin.com/in/ilyagolovin/" target="_blank">LinkedIn</a>
+    </div>
+  </body>
+</html>
